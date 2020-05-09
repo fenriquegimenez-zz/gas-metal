@@ -69,7 +69,8 @@ nav a {
 }
 .container {
   max-width: 1024px;
-  margin: 10px auto;
+  margin: 90px auto;
+  
 }
 .carousel {
   display: flex;
