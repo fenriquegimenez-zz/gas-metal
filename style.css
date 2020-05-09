@@ -6,6 +6,7 @@ a {
 }
 h1 {
   font-size: 24px;
+  color: white;
 }
 span {
   font-weight: bold;
@@ -130,6 +131,29 @@ footer {
   font-size: small;
   margin-top: 1rem;
   font-family: 'Source Code Pro', monospace;
+}
+.products-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  background-color: #137A34;
+}
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.card {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #137A34;
+  margin: 10px;
+  padding: 10px;
 }
 
 @media (max-width: 768px) {
