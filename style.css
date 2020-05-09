@@ -8,6 +8,9 @@ h1 {
   font-size: 24px;
   color: white;
 }
+h2 {
+  font-size: 20px;
+}
 span {
   font-weight: bold;
 }
@@ -132,7 +135,7 @@ footer {
   margin-top: 1rem;
   font-family: 'Source Code Pro', monospace;
 }
-.products-title {
+.products-title, .empresa-title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,6 +157,14 @@ footer {
   background-color: #137A34;
   margin: 10px;
   padding: 10px;
+}
+article {
+  padding: 20px;
+  text-align: justify;
+}
+.aside-image-wrapper {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 @media (max-width: 768px) {
