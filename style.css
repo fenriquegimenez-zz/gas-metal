@@ -172,7 +172,7 @@ article {
     flex-direction: column;
   }
   .nav-bar {
-    flex-direction: column;
+    flex-direction: colSumn;
   }
   .container, .carousel, footer {
     width: 95%;
