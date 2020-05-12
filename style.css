@@ -167,14 +167,15 @@ article {
   justify-content: space-evenly;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   nav ul{
     flex-direction: column;
   }
   .nav-bar {
-    flex-direction: colSumn;
+    flex-direction: column;
   }
   .container, .carousel, footer {
     width: 95%;
   }
 }
+
