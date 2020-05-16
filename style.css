@@ -206,7 +206,10 @@ input::placeholder {
   font-size: 1.1rem;
   padding-left: 10px;
 }
-
+#comments::placeholder {
+  text-align: center;
+  padding-left: none;
+}
 button {
   background-color: transparent;
   border: 1px solid white;
