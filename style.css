@@ -34,7 +34,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 70px;
+  height: 80px;
   background-color: #137A34;
   color: white;
   padding: 2px 4px;
