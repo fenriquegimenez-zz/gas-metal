@@ -251,10 +251,17 @@ button:hover {
   .container, .carousel, footer {
     width: 95%;
   }
+  .container {
+    margin-top: 100px;
+  }
   .card-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+  input {
+    width: 90%;
+  }
+ 
 }
 
